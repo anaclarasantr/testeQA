@@ -57,3 +57,7 @@ Atualmente podemos editar todos os campos, uma atualização pertinente seria tr
 ---
 ## Relatório
 
+[Link direto para o arquivo html](https://github.com/anaclarasantr/testeQA/tree/master/cypress/reports/html)
+
+[Link direto para o video de report](https://github.com/anaclarasantr/testeQA/tree/master/cypress/videos)
+![Captura de Tela 2023-03-04 às 19 35 22](https://user-images.githubusercontent.com/89486335/222931586-0cb48315-ccf9-4d99-852d-76bb31fe377d.png)
