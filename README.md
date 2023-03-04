@@ -9,15 +9,20 @@ Nesse projeto são abordados as fases abaixo utilizando o browser google chrome.
 
 ---
 
-##  Desafio Nível 1
+**Desafio Nível 1**
+
   • Cadastro de usuário
 
   • Consulta de usuário
-## Desafio Nível 2
+
+**Desafio Nível 2**
+
   • Edição de usuário 
 
   • Deletar usuário
-## Desafio Nível 3
+
+**Desafio Nível 3**
+
   • Cenários Exploratórios
 
   • Cenários Negativos
