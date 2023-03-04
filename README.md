@@ -34,6 +34,9 @@ Nesse projeto são abordados as fases abaixo utilizando o browser google chrome.
 ---
 
 ## BDD 
+Neste arquivo, estão descritos os cenários que guiaram o desenvolvimento do scrip de testes.
 
+[Link direto para o arquivo: ](https://github.com/anaclarasantr/testeQA/blob/master/BDD%20-%20TINNOVA.pdf)
 
 ---
+Sugestão de melhorias do sistema
