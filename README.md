@@ -4,8 +4,8 @@ Repositório para armazenamento e envio do desafio de Quality Assurance - Tinnov
 
 
 ## 💻 Sobre o projeto
-Este é um projeto utilizando **Cypress** para criação de uma suite de testes para a interface do site  https://tinnova-teste-qa.vercel.app/
-Nesse projeto são abordados as fases abaixo utilizando o browser google chrome.
+Este projeto utiliza **Cypress** para criação de uma suite de testes  da interface do site  https://tinnova-teste-qa.vercel.app/
+Nesse projeto, as fases abaixo utilizaram o browser google chrome.
 
 ---
 
