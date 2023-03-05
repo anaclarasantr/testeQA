@@ -106,22 +106,13 @@ Rodar specs por linha de comando:
 Para gerar um report HTML, siga os 4 passos abaixo:
 
 1. Adicionando as dependências necessárias para gerar o reporte de testes:
-   ```
-   npm i --save-dev cypress-mochawesome-reporter
+```
+npm i --save-dev cypress-mochawesome-reporter
 ```
 	
 2. Modificar o arquivo cypress.config.js:
 
-const { defineConfig } = require('cypress');
-
-module.exports = defineConfig({
-  reporter: 'cypress-mochawesome-reporter',
-  e2e: {
-    setupNodeEvents(on, config) {
-      require('cypress-mochawesome-reporter/plugin')(on);
-    },
-  },
-});
+![Captura de Tela 2023-03-04 às 21 03 57](https://user-images.githubusercontent.com/89486335/222934484-8f2de63a-b813-4f5b-8a46-f4a48574f169.png)
 
 
 3. Adicionar em cypress/support/e2e.js:
