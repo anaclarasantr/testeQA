@@ -39,22 +39,7 @@ Neste arquivo, estão descritos os cenários que guiaram o desenvolvimento do sc
 [Link direto para o arquivo: ](https://github.com/anaclarasantr/testeQA/blob/master/BDD%20-%20TINNOVA.pdf)
 
 ---
-## Sugestão de melhorias do sistema
 
-**- Cadastro de usuário**
-
-Dentro da funcionalidade de cadastro de usuário, podemos travar o "Salvar" caso todos os campos não estejam preenchidos. Da forma como está estruturado atualmente, o sistema mostra um alerta informando que todos os campos precisam ser preenchidos mas é possível cadastrar mesmo assim. 
-
-**- Consulta de usuário**
-
-Nessa aplicação só existe a função de expansão dos dados do usuário cadastrado. O sistema exibe uma nova tela com os mesmos dados que vemos no formato de lista antes da expansão. O ponto de melhori nessa funcionalidade seria adicionar um botão de busca por nome/email, que traga como retorno somente a célula do usuário referente a pesquisa e que mantenha as funcionalidades no box de ações caso seja um desejo do cliente. Quando pensamos em um sistema com mais de 100 usuários cadastrados, fica inviável buscar o nome visualmente pela lista para então expandir os dados.
-
-**- Edição de usuário**
-Atualmente podemos editar todos os campos, uma atualização pertinente seria travar a edição do CPF, que é um valor imutável e pode ser a chave primária de outras funções do sistema.
-
-**OBS:** Alguns testes negativos como os casos de cadastro e consulta não foram executados devido a forma como o sistema foi desenvolvido. Como não temos a trava de campos, não conseguimos obter um resultado negativo de busca ou cadastro por exemplo.
-
----
 ## Comandos para execução 
 
 **Ambiente de desenvolvimento**
@@ -125,7 +110,23 @@ import 'cypress-mochawesome-reporter/register';
 ```
 ./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'
 ```
+---
+## Sugestão de melhorias do sistema
 
+**- Cadastro de usuário**
+
+Dentro da funcionalidade de cadastro de usuário, podemos travar o "Salvar" caso todos os campos não estejam preenchidos. Da forma como está estruturado atualmente, o sistema mostra um alerta informando que todos os campos precisam ser preenchidos mas é possível cadastrar mesmo assim. 
+
+**- Consulta de usuário**
+
+Nessa aplicação só existe a função de expansão dos dados do usuário cadastrado. O sistema exibe uma nova tela com os mesmos dados que vemos no formato de lista antes da expansão. O ponto de melhori nessa funcionalidade seria adicionar um botão de busca por nome/email, que traga como retorno somente a célula do usuário referente a pesquisa e que mantenha as funcionalidades no box de ações caso seja um desejo do cliente. Quando pensamos em um sistema com mais de 100 usuários cadastrados, fica inviável buscar o nome visualmente pela lista para então expandir os dados.
+
+**- Edição de usuário**
+Atualmente podemos editar todos os campos, uma atualização pertinente seria travar a edição do CPF, que é um valor imutável e pode ser a chave primária de outras funções do sistema.
+
+**OBS:** Alguns testes negativos como os casos de cadastro e consulta não foram executados devido a forma como o sistema foi desenvolvido. Como não temos a trava de campos, não conseguimos obter um resultado negativo de busca ou cadastro por exemplo.
+
+---
 
 ## Relatório
 
