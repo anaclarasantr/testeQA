@@ -1,5 +1,5 @@
 
-# DesafioTinnova-
+# Desafio Tinnova
 Repositório para armazenamento e envio do desafio de Quality Assurance - Tinnova 
 
 
